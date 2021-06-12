@@ -7,6 +7,9 @@ body {
   background-size    : 25px 25px;
 }
 
+h1 {
+  font-size: 2em;
+}
 h1,
 h2,
 h3,
