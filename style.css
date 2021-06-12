@@ -7,11 +7,32 @@ body {
   background-size    : 25px 25px;
 }
 
-code .nim {
-  font-family     : "Fira Code", Menlo, Consolas, monospace;
-  background-color: #e8e3dd;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #423f38;
 }
 
+a {
+  color: #b04746;
+}
+
+code {
+  background-color: #dde3e0;
+}
+.hljs {
+  font-family     : "Fira Code", Menlo, Consolas, monospace;
+  background-color: #f7f6f4;
+}
+
+samp {
+  background-color: #e7e1d7;
+  padding: 3px;
+  border-left: 3px solid #7c9baf;
+}
 .nb-box {
   display        : flex;
   align-items    : center;
