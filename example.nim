@@ -3,6 +3,7 @@ import
   nimib
 
 nbInit
+nbDoc.context["stylesheet"] = """<link rel="stylesheet" href="style.css">"""
 
 nbText: """
 ## Secret talk with a computer
